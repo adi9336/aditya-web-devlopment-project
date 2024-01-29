@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background-image: url(assets/bg.netflix.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+
+}
+
+.main .box {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+    height: 80vh;
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    top: 0;
+    width: 100%;
+    max-width: 75vw;
+    margin: auto;
+    height: 114px;
+}
+
+
+nav img {
+    position: relative;
+    width: 200px;
+    z-index: 10;
+}
+
+nav .button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#l1{
+    font-size: 4rem;
+    font-weight: 900;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+z-index: 15;
+}
+#l2{
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+z-index: 15;
+}
+#l3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+z-index: 15;
+padding: 20px;
+}
+#in{ position: relative;
+    width: 400px;
+    height: 60px;
+    z-index: 10;
+    background-color: grey;
+    opacity: 0.6;
+   box-shadow: 7cm;
+   border-color: green;
+   border-width: 3px;
+    font-size: 2em;
+
+}
+#Get{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    z-index: 10;
+  margin-left: 5px;
+    font-size: 35px;
+    background-color: red;
+    border-color: red;
+    border-radius: 2px;
+    color: snow;
+}
+#Signin{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    z-index: 10;
+  margin-left: 5px;
+    font-size: 20px;
+    background-color: red;
+    border-color: red;
+    border-radius: 4px;
+    color: snow;
+
+}
+#lan{
+    width: 150px;
+    height: 45px;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(21, 19, 19); 
+    border: 3px solid white;
+    opacity: 0.35;
+    position: relative;
+    z-index: 15;
+    font-optical-sizing: 12px;
+}
+.box2{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.sep{
+    width: 100%;
+    height: 12px;
+    background-color: #262626;
+}
+.first{position: absolute;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    background-color:black;
+    height: 600px;
+    width: 50%; 
+    margin-right: -140px;
+    z-index: 10;
+}
+.content p{z-index: 10;
+    font-size: 50px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+
+.tv{margin-right: 100px;
+    height: 600px;
+    width: 50%;
+
+}
+img{
+    position: absolute;
+    z-index: 10;
+}
+video{
+    position:relative;
+    left: 85px;
+    top: 90px;
+}
+
+/* section:3 */
+/* .second{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+
+} */
+.bg{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+}
+.bg2{
+    height: 750px;
+    background-color: black;
+}
+.faq{ display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+    background-color:black;
+    color: white;
+    font-family: monospace;
+    font-weight: 800;
+    padding-top: 100px;
+   
+}
+.faq_box{display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 60%;
+    width: 100%px;
+    background-color:black;
+text-decoration: none;
+}
+.faq_{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.button2{ position: relative;
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    margin-bottom: 10px;
+    background-color: #262626;
+    color: white;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
+   
+}
+h3{
+    font-size: 35px;
+    
+}
